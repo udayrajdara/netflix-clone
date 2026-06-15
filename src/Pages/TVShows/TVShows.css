@@ -1,0 +1,17 @@
+.tvshows-container{
+    width: 100%;
+    background-color: black;
+}
+
+.tvshows-data{
+    padding-top: 5rem;
+}
+
+.tvshows-title{
+    padding-left: 3rem;
+    width: 300px;
+    font-size: 35px;
+    color: white;
+    font-weight: 600;
+}
+

@@ -1,0 +1,23 @@
+.slider-container{
+    width: 100%;
+    padding: 2.5rem 0;
+    overflow: hidden;
+    background-color: black;
+}
+
+@media (max-width: 800px) {
+    .slider-container{
+        width: 100%;
+        padding: 0 0;
+        overflow: hidden;
+    }
+}
+
+@media (max-width: 500px) {
+    .slider-container{
+        width: 100%;
+        padding: 0 0;
+        overflow: hidden;
+    }
+    
+}

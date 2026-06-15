@@ -1,0 +1,287 @@
+.user-profile-container{
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+}
+
+.user-profile-bar{
+    /* max-width: 620px; */
+    width: 620px;
+    padding-top: 3.5rem;
+    font-weight: 600;
+}
+
+.user-edit{
+    color: white;
+    font-size: 3rem;
+}
+
+.user-edit-bottom-line{
+    width: 100%;
+    background-color: rgb(79, 79, 79);
+    height: 0.1px;
+}
+
+.user-input-section{
+    width: 100%;
+    padding-top: 1.3rem;
+    display: flex;
+    gap: 1.2rem;
+}
+
+.user-input-flex{
+    width: 100%;
+}
+
+.user-input input{
+    width: 100%;
+    background-color: #666666;
+    border: none;
+    outline: none;
+    padding: 3px 0 3px 10px;
+    margin-bottom: 15px;
+    color: white;
+}
+
+.user-input input::placeholder{
+    color: #FFFFFFB3;
+    font-weight: 400;
+}
+.user-profile-cover{
+    position: relative;
+
+}
+.user-profile-cover img{
+    width: 100px;
+    height: 100px;
+    border-radius: 5px;
+}
+.edit-user-image{
+    position: absolute;
+    top: 4.3rem;
+    left: 0.7rem;
+    background-color: black;
+    border-radius: 50%;
+    box-shadow: 0px 1px 6px 0.1px;
+}
+
+.select-language-title{
+    font-size: 1.1rem;
+    color: rgb(149, 149, 149);
+    margin-bottom: 5px;
+}
+.edit-user-image i{
+    color: white;
+    font-size: 1.3rem;
+    padding: 0.1rem;
+
+}
+
+.user-language select{
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+    outline: none;
+    width: 100px;   
+    font-size: 0.9rem;
+    font-weight: 600;
+    padding: 5px;
+
+}
+
+.maturity-settings{
+    width: 100%;
+}
+
+.maturity-title{
+    color: rgb(149, 149, 149);
+}
+
+.bottom-line{
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    width: 100%;
+    background-color: rgb(79, 79, 79);
+    height: 0.1px;
+}
+.maturity-display{
+    text-align: center;
+    color: white;
+    border-radius: 3px;
+    width: 70px;
+    padding: 5px;
+    font-size: 13px;
+    margin-top: 10px;
+    background-color: #333333;
+}
+
+.maturity-caption{
+    color: white;
+    font-size: 14px;
+    font-weight: 400;
+    margin: 10px 0 20px 0;
+}
+
+.maturity-caption span{
+    font-weight: 600;
+}
+
+.maturity-edit-button button{
+    width: 60px;
+    outline: none;
+    color: #FFFFFFB3;
+    border: 0.1px solid #FFFFFFB3;
+    background-color: transparent;
+    font-weight: 400;
+    font-size: 13px;
+    padding: 4px;
+}
+
+.maturity-edit-button button:hover{
+    color: white;
+    border: 0.1px solid white;
+}
+
+.save-delete-section{
+    width: 450px;
+    display: flex;
+    gap: 1.3rem;
+}
+.btns button{
+    border: 0.1px solid #FFFFFFB3;
+    outline: none;
+    font-weight: 600;
+    padding: 5px 25px 8px 25px;
+}
+
+.save-btn button{
+    background-color: white;
+    outline: none;
+    border: none;
+}
+
+.save-btn button:hover{
+    background-color: red;
+    color: white;
+}
+
+.cancle-btn button{
+    background-color: transparent;
+    color: #FFFFFFB3;
+    border: o.1px solid #FFFFFFB3;
+}
+
+.cancle-btn button:hover{
+    color: white;
+    border: 0.1px solid white;
+}
+
+.delete-btn button{
+    background-color: transparent;
+    color: #FFFFFFB3;
+    border: 0.1px solid #FFFFFFB3;
+}
+.delete-btn button:hover{
+    color: white;
+    border: 0.1px solid white;
+}
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 630px) {
+    .user-profile-container{
+        width: 100%;
+    }
+    .user-profile-bar{
+        padding: 1rem;
+        width: 100%;
+        padding-top: 3.5rem;
+
+    }
+}
+
+@media (max-width: 500px) {
+    .user-profile-container{
+        width: 100%;
+    }
+    .user-profile-bar{
+        padding: 1rem;
+        width: 100%;
+        padding-top: 3.5rem;
+
+    }
+    .user-edit{
+        color: white;
+        font-size: 2rem;
+    }
+    .user-profile-cover img{
+        width: 80px;
+        height: 80px;
+    }
+
+    .edit-user-image{
+        top: 3rem;
+
+    }
+    .edit-user-image i{
+        font-size: 1.2rem;
+    }
+    .user-input input{
+        width: 100%;
+    }
+
+    .save-delete-section{
+        width: 100%;
+        gap: 0.9rem;
+
+
+    }
+}
+
+
+
+@media (max-width: 390px) {
+    .user-profile-container{
+        width: 100%;
+    }
+    .user-profile-bar{
+        padding: 1rem;
+        width: 100%;
+        padding-top: 3.5rem;
+
+    }
+    .user-edit{
+        color: white;
+        font-size: 2rem;
+    }
+    .user-profile-cover img{
+        width: 80px;
+        height: 80px;
+    }
+    .user-input input{
+        width: 100%;
+    }
+
+    .save-delete-section{
+        width: 100%;
+        font-size: 15px;
+        gap: 0.3rem;
+
+    }
+    .btns button{
+        border: 0.1px solid #FFFFFFB3;
+        outline: none;
+        font-weight: 600;
+        padding: 5px 25px 8px 25px;
+    }
+}

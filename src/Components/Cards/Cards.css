@@ -1,0 +1,166 @@
+.cards-container{
+    max-width: 230px;
+    width: 230px;
+    height: 100%;
+    cursor: pointer;
+    position: relative;
+}
+
+.cards-image{
+    border-radius: 0.2rem;
+    width: 100%;
+    height: 100%;
+    z-index: 10;
+}
+
+.hover{
+    z-index: 1;
+    height: max-content;
+    width: 20rem;
+    position: absolute;
+    top: -16.5vh;
+    left: 0;
+    border-radius: 0.3rem;
+    box-shadow: rgba(0,0,0,0.75) 0px 3px 10px;
+    background-color: #181818;
+    transition: 0.3s ease-in-out;
+}
+
+.image-video-container{
+    position: relative;
+    height: 140px;
+}
+
+.image-video-container img{
+    width: 100%;
+    height: 140px;
+    object-fit: cover;
+    border-radius: 0.3rem;
+    top: 0;
+    z-index: 4;
+    position: absolute;
+}
+
+.image-video-container video{
+    width: 100%;
+    height: 140px;
+    object-fit: cover;
+    border-radius: 0.3rem;
+    top: 0;
+    z-index: 5;
+    position: absolute;
+}
+
+.info-container{
+    padding: 0.5rem;
+    gap: 0.5rem;
+}
+
+.info-container .name{
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
+}
+
+.controls{
+ display: flex;
+ gap: 1rem;
+}
+
+.controls i, .info i{
+    font-size: 2rem;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+    color: white;
+}
+
+.icon i:hover{
+    color: #b8b8b8;
+}
+
+.genres ul{
+    padding-left: 0px;
+    gap: 0.5rem;
+}
+
+.genres ul li{
+    padding-right: 0.5rem;
+    color: white;
+    font-size: 14px;
+}
+
+.genres ul:first-of-type{
+    list-style-type: none;
+}
+
+
+
+
+
+
+
+
+@media (max-width: 500px) {
+    .cards-container{
+        max-width: 230px;
+        width: 130px;
+        height: 100%;
+        cursor: pointer;
+        position: relative;
+    }
+    .cards-image{
+        border-radius: 0.2rem;
+        width: 100%;
+        height: 100%;
+        z-index: 1;
+    }
+    
+    .hover{
+        display: none;
+    }
+    
+    .image-video-container{
+        display: none;
+    }
+    
+    .image-video-container img{
+        display: none;
+    }
+    
+    .image-video-container video{
+       display: none;
+    }
+    
+    .info-container{
+        display: none;
+    }
+    
+    .info-container .name{
+        display: none;
+    }
+    
+    .controls{
+     display: none;
+    }
+    
+    .controls i, .info i{
+        font-size: 1.5rem;
+        cursor: pointer;
+        transition: 0.3s ease-in-out;
+        color: white;
+    }
+    
+    .icon i:hover{
+        color: #b8b8b8;
+    }
+    .genres ul{
+        padding-left: 0px;
+        gap: 0.5rem;
+    }
+    
+    .genres ul li{
+        padding-right: 0.5rem;
+        color: white;
+        font-size: 14px;
+    }
+}

@@ -1,0 +1,316 @@
+.containers{
+    position: absolute;
+    top: 0%;
+    background: linear-gradient(black, transparent 100%);
+    width: 100%;
+    z-index: 1;
+}
+
+.header-part{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+    padding: 1rem 0;
+}
+
+/* .header-part img{
+    width: 180px;
+    height: 100px;
+} */
+
+.netflix-svg-logo svg{
+    width: 150px;
+}
+
+.language{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    width: 210px;
+}
+
+.language button{
+    width: 70px;
+    height: 30px;
+    background-color: rgba(229, 9, 20);
+    color: rgba(255, 255, 255);
+    font-size: 14px;
+    border: none;
+    outline: none;
+    border-radius: 3px;
+    font-weight: 600;
+}
+.language-btn{
+    width: 100px;
+    border: 0.5px solid rgb(104, 104, 104);
+    background-color: rgba(24, 24, 24, 0.751); 
+    height: 30px;
+    border-radius: 3px;
+
+}
+
+.language-btn i{
+    color: white;
+    padding-left: 5px;
+}
+.language-btn select{
+    width: 90px;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    color: rgba(255, 255, 255);
+}
+
+.language-btn option{
+    background-color: white;
+}
+
+
+
+
+
+
+
+
+/* @media (max-width: 1200px) {
+    
+    .header-part{
+        padding: 0 1rem;
+    
+    }
+    
+    .header-part img{
+        width: 185px;
+        height: 105px;
+    }
+    
+    .language{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        align-content: center;
+        width: 210px;
+    }
+    
+    .language button{
+        width: 80px;
+        height: 30px;
+        background-color: rgba(229, 9, 20);
+        color: rgba(255, 255, 255);
+        font-size: 17px;
+        border: none;
+        outline: none;
+        border-radius: 3px;
+        font-weight: 600;
+    }
+    .language-btn{
+        width: 120px;
+        border: 0.5px solid rgba(255, 255, 255);
+        background-color: rgba(24, 24, 24, 0.751); 
+        height: 30px;
+        border-radius: 3px;
+    
+    }
+    
+    .language-btn select{
+        background-color: transparent;
+        border: none;
+        outline: none;
+        color: rgba(255, 255, 255);
+    }
+    
+    .language-btn option{
+        background-color: white;
+    }
+} */
+
+
+@media (max-width: 960px) {
+
+    .containers{
+        position: absolute;
+        top: 0.5%;
+        left: 0;
+        background: linear-gradient(black, transparent 100%);
+        width: 100%;
+        height: 100px;
+        z-index: 1;
+    }
+    .header-part{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        align-content: center;
+        padding: 0 1rem;
+    
+    }
+    
+    .header-part img{
+        width: 100px;
+        height: 65px;
+    }
+    
+    .language{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        align-content: center;
+        width: 210px;
+    }
+    
+    .language button{
+        width: 75px;
+        height: 32px;
+        background-color: rgba(229, 9, 20);
+        color: rgba(255, 255, 255);
+        font-size: 16px;
+        border: none;
+        outline: none;
+        border-radius: 3px;
+        font-weight: 600;
+    }
+    .language-btn{
+        width: 120px;
+        border: 0.5px solid rgba(255, 255, 255);
+        background-color: rgba(24, 24, 24, 0.751); 
+        height: 30px;
+        border-radius: 3px;
+    
+    }
+    
+    .language-btn select{
+        width: 90px;
+        background-color: transparent;
+        border: none;
+        outline: none;
+        color: rgba(255, 255, 255);
+    }
+    
+    .language-btn option{
+        background-color: white;
+    }
+}
+
+
+@media (max-width: 800px) {
+
+    .container{
+        position: absolute;
+        top: 0.5%;
+        left: 0;
+        background: linear-gradient(black, transparent 100%);
+        width: 100%;
+        height: 100px;
+        z-index: 1;
+    }
+    .header-part{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        align-content: center;
+        padding: 2rem 2rem;
+    
+    }
+    
+    .header-part img{
+        width: 100px;
+        height: 65px;
+    }
+
+    .netflix-svg-logo svg{
+        width: 110px;
+    }
+    
+    .language{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        align-content: center;
+        width: 180px;
+    }
+    
+    .language button{
+        width: 75px;
+        height: 32px;
+        background-color: rgba(229, 9, 20);
+        color: rgba(255, 255, 255);
+        font-size: 16px;
+        border: none;
+        outline: none;
+        border-radius: 3px;
+        font-weight: 600;
+    }
+    .language-btn{
+        width: 100px;
+        border: 0.5px solid rgba(255, 255, 255);
+        background-color: rgba(24, 24, 24, 0.751); 
+        height: 30px;
+        border-radius: 3px;
+        margin-right: 0px;
+    
+    }
+    
+ 
+}
+
+@media (max-width: 600px) {
+    .language-btn{
+        width: 60px;
+        border: 0.5px solid rgba(255, 255, 255);
+        background-color: rgba(24, 24, 24, 0.751); 
+        height: 30px;
+        border-radius: 3px;
+        margin-right: 0px;
+    
+    }
+
+    .language-btn select{
+        width: 20px;
+    }
+    .language{
+        width: 140px;
+    }
+
+}
+
+@media (max-width: 500px) {
+    .language-btn{
+        width: 55px;
+        border: 0.5px solid rgba(255, 255, 255);
+        background-color: rgba(24, 24, 24, 0.751); 
+        height: 30px;
+        border-radius: 3px;
+        margin-right: 0px;
+    
+    }
+    .language-btn select{
+        font-size: 12px;
+        font-weight: 600;
+        color: white;
+        margin-left: 5px;
+    }
+    .language button{
+        width: 70px;
+        height: 30px;
+        background-color: rgba(229, 9, 20);
+        color: rgba(255, 255, 255);
+        font-size: 14px;
+        border: none;
+        outline: none;
+        border-radius: 3px;
+        font-weight: 600;
+    }
+
+    .netflix-svg-logo svg{
+        width: 100px;
+    }
+    
+}
+
+@media (max-width: 300px) {
+    .netflix-svg-logo svg{
+        width: 80px;
+    }
+}

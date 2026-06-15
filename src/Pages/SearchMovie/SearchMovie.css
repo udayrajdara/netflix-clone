@@ -1,0 +1,32 @@
+.search-movie-container{
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 0%;
+    z-index: 1;
+    background-color: black;
+}
+.search-list-bar{
+    color: white;
+    padding: 3%;
+}
+.search-movie-flex{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 4%;
+}
+
+.search-list-image{
+    width: 100%;
+    height: 130px;
+    /* padding-top: 8%; */
+    border-radius: 3px;
+}
+.search-list-title{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 230px;
+}

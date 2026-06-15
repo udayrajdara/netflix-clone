@@ -1,0 +1,79 @@
+.netflix-player{
+    width: 100%;
+    height: 100vh;
+}
+
+
+video{
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+}
+.player-back-button{
+    position: absolute;
+    padding: 2rem;
+    z-index: 1;
+}
+
+.player-back-button i{
+    font-size: 30px;
+    font-weight: 600;
+    cursor: pointer;
+    color: white;
+}
+
+
+@media (max-width:500px) {
+    .netflix-player{
+        width: 100%;
+        height: 100vh;
+    }
+
+    .netflix-player-container{
+        background-color: black;
+    }
+    
+    
+    .netflix-player video{
+        margin-top: 40px;
+        width: 100%;
+        height: 220px;
+        object-fit: cover;
+    }
+
+    .player-back-button{
+        position: absolute;
+        padding: 0.4rem;
+        z-index: 1;
+    }
+
+    .player-back-button i{
+        color: white;
+    }
+}
+
+
+@media (max-width: 350px) {
+    .netflix-player{
+        width: 100%;
+        height: 255px;
+    }
+    
+    
+    /* .netflix-player video{
+        width: 100%;
+        height: 250px;
+    } */
+    .player-back-button{
+        position: absolute;
+        padding: 0.6rem;
+        z-index: 1;
+    }
+    
+    .player-back-button i{
+        font-size: 30px;
+        font-weight: 600;
+        cursor: pointer;
+    }
+    
+}

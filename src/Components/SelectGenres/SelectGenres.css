@@ -1,0 +1,28 @@
+.select-genres-container{
+    width: 100%;
+}
+
+.select-genres-field{
+    gap: 3rem;
+
+}
+.select-genres-field select{
+    width: 100px;
+    height: 25px;
+    font-weight: 600;
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+    outline: none;
+    padding: 1px;
+}
+
+.select-genres-field option{
+    background-color: black;
+    color: white;
+    width: 200px;
+}
+
+.select-genres-field select:hover{
+    background-color: rgba(255, 255, 255, 0.189);
+}

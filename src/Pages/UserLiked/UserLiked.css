@@ -1,0 +1,21 @@
+.userliked-container{
+    width: 100%;
+    position: relative;
+    background-color: rgb(37, 37, 37)
+}
+.content{
+    margin: 2.3rem;
+    margin-top: 5rem;
+    gap: 3rem;
+}
+
+.userliked-title{
+    margin-left: 1rem;
+    color: white;
+    font-size: 27px;
+}
+
+.grid-style{
+    flex-wrap: wrap;
+    gap: 0.5rem;
+}

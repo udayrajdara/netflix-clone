@@ -1,0 +1,16 @@
+.movies-container{
+    width: 100%;
+    background-color: black;
+}
+
+.movies-data{
+    padding-top: 5rem;
+}
+
+.movies-title{
+    padding-left: 3rem;
+    width: 250px;
+    font-size: 35px;
+    color: white;
+    font-weight: 600;
+}
