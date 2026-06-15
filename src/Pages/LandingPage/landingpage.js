@@ -253,9 +253,9 @@ useEffect(()=>{
                             <div className='item' key={item.id}>
                                 <div className='accordion-title-section cur-pot' onClick={()=> toggle(i)}>
                                 <div className='accordion-title'>{item.title}</div>
-                                <div className='accordion-icon'>{selected == i ? item.crossIcon : item.plusIcon}</div>
+                                <div className='accordion-icon'>{selected === i ? item.crossIcon : item.plusIcon}</div>
                                 </div>
-                                <div className={selected == i ? 'show': 'accordion-content'}>{item.caption}</div>
+                                <div className={selected === i ? 'show': 'accordion-content'}>{item.caption}</div>
                             </div>
                             )
                         })}
