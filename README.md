@@ -1,8 +1,8 @@
-# 🎬 Netflix Clone — Frontend
+# 🎬 Netflix Clone
 
 A Netflix-inspired frontend built with React, Redux Toolkit, and Firebase — featuring movie browsing, liked movies, and user authentication. Deployed on Netlify.
 
-🔗 **Live Demo:** [heroic-sunflower-245156.netlify.app](https://heroic-sunflower-245156.netlify.app/)  
+🔗 **Live Demo:** [https://uday-dara-react.netlify.app/](https://uday-dara-react.netlify.app/)  
 🔗 **Backend Repo:** [github.com/udayrajdara/netflix-api](https://github.com/udayrajdara/netflix-api)  
 🔗 **Backend API:** [netflix-api-9k8a.onrender.com](https://netflix-api-9k8a.onrender.com)
 
@@ -11,13 +11,13 @@ A Netflix-inspired frontend built with React, Redux Toolkit, and Firebase — fe
 ## 📸 Preview
 
 <p align="center">
-  <img src="https://github.com/udayrajdara/wisdom-infotech/blob/master/wisdom%20ss%201.png?raw=true" width="48%" alt="Homepage">
-  <img src="https://github.com/udayrajdara/wisdom-infotech/blob/master/wisdom%20ss%202.png?raw=true" width="48%" alt="Courses">
+  <img src="https://github.com/udayrajdara/netflix-clone/blob/main/src/Pages/images/netflix-clone%20ss%201.png?raw=true" width="48%" alt="Netflix Clone Home">
+  <img src="https://github.com/udayrajdara/netflix-clone/blob/main/src/Pages/images/netflix-clone%20ss%202.png?raw=true" width="48%" alt="Netflix Clone Movies">
 </p>
 
 <p align="center">
-  <img src="https://github.com/udayrajdara/wisdom-infotech/blob/master/wisdom%20ss%203.png?raw=true" width="48%" alt="Dashboard">
-  <img src="https://github.com/udayrajdara/wisdom-infotech/blob/master/wisdom%20ss%204.png?raw=true" width="48%" alt="Mobile View">
+  <img src="https://github.com/udayrajdara/netflix-clone/blob/main/src/Pages/images/netflix-clone%20ss%203.png?raw=true" width="48%" alt="Netflix Clone TV Shows">
+  <img src="https://github.com/udayrajdara/netflix-clone/blob/main/src/Pages/images/netflix-clone%20ss%204.png?raw=true" width="48%" alt="Netflix Clone My List">
 </p>
 
 
