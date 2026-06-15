@@ -1,70 +1,153 @@
-# Getting Started with Create React App
+# 🎬 Netflix Clone — Frontend
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A Netflix-inspired frontend built with React, Redux Toolkit, and Firebase — featuring movie browsing, liked movies, and user authentication. Deployed on Netlify.
 
-## Available Scripts
+🔗 **Live Demo:** [heroic-sunflower-245156.netlify.app](https://heroic-sunflower-245156.netlify.app/)  
+🔗 **Backend Repo:** [github.com/udayrajdara/netflix-api](https://github.com/udayrajdara/netflix-api)  
+🔗 **Backend API:** [netflix-api-9k8a.onrender.com](https://netflix-api-9k8a.onrender.com)
 
-In the project directory, you can run:
+---
 
-### `npm start`
+## 📸 Preview
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+<p align="center">
+  <img src="https://github.com/udayrajdara/wisdom-infotech/blob/master/wisdom%20ss%201.png?raw=true" width="48%" alt="Homepage">
+  <img src="https://github.com/udayrajdara/wisdom-infotech/blob/master/wisdom%20ss%202.png?raw=true" width="48%" alt="Courses">
+</p>
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+<p align="center">
+  <img src="https://github.com/udayrajdara/wisdom-infotech/blob/master/wisdom%20ss%203.png?raw=true" width="48%" alt="Dashboard">
+  <img src="https://github.com/udayrajdara/wisdom-infotech/blob/master/wisdom%20ss%204.png?raw=true" width="48%" alt="Mobile View">
+</p>
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
 
-### `npm run build`
+## ✨ Features
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- 🔐 User authentication (Sign up / Sign in / Sign out) via Firebase
+- 🎥 Browse movies and TV shows fetched from TMDB
+- ❤️ Like and unlike movies — saved to MongoDB via the backend API
+- 🗂️ View your personal liked movies list
+- 📱 Fully responsive design
+- ⚡ Global state management with Redux Toolkit
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+---
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## 🛠️ Tech Stack
 
-### `npm run eject`
+| Technology | Purpose |
+|---|---|
+| React 18 | UI library |
+| Redux Toolkit | Global state management |
+| React Router v6 | Client-side routing |
+| Firebase v10 | User authentication |
+| Axios | API requests to backend |
+| Ant Design | UI components |
+| Bootstrap 5 | Responsive layout & utilities |
+| React Icons | Icon library |
+| Netlify | Hosting & deployment |
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+---
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## 📁 Project Structure
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+```
+netflix-clone/
+├── public/
+│   └── index.html
+├── src/
+│   ├── components/        # Reusable UI components
+│   ├── pages/             # Page-level components (Home, Login, MyList, etc.)
+│   ├── store/             # Redux Toolkit slices & store
+│   ├── utils/             # Firebase config & helper functions
+│   ├── App.js             # Routes & app entry
+│   └── index.js
+├── .env                   # Environment variables (not committed)
+├── package.json
+└── .gitignore
+```
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+---
 
-## Learn More
+## 🚀 Getting Started
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### Prerequisites
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- Node.js v16+
+- npm
+- A [Firebase](https://firebase.google.com/) project (for auth)
+- A [TMDB API key](https://www.themoviedb.org/settings/api) (for movie data)
 
-### Code Splitting
+### Installation
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+```bash
+# 1. Clone the repository
+git clone https://github.com/udayrajdara/netflix-clone.git
 
-### Analyzing the Bundle Size
+# 2. Navigate into the project
+cd netflix-clone
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+# 3. Install dependencies
+npm install
 
-### Making a Progressive Web App
+# 4. Set up environment variables
+touch .env
+# Fill in your values (see below)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+# 5. Start the development server
+npm start
+```
 
-### Advanced Configuration
+App runs at `http://localhost:3000`.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+---
 
-### Deployment
+## 🔑 Environment Variables
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+Create a `.env` file in the root directory:
 
-### `npm run build` fails to minify
+```env
+REACT_APP_FIREBASE_API_KEY=your_firebase_api_key
+REACT_APP_FIREBASE_AUTH_DOMAIN=your_project.firebaseapp.com
+REACT_APP_FIREBASE_PROJECT_ID=your_project_id
+REACT_APP_FIREBASE_STORAGE_BUCKET=your_project.appspot.com
+REACT_APP_FIREBASE_MESSAGING_SENDER_ID=your_sender_id
+REACT_APP_FIREBASE_APP_ID=your_app_id
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+REACT_APP_TMDB_API_KEY=your_tmdb_api_key
+REACT_APP_API_URL=https://netflix-api-9k8a.onrender.com
+```
+
+> ⚠️ Never commit your `.env` file — it's already in `.gitignore`.
+
+---
+
+## 🌐 Deployment
+
+Deployed on [Netlify](https://netlify.com).
+
+To deploy your own version:
+
+1. Push your code to GitHub
+2. Connect your repo on Netlify
+3. Set environment variables in the Netlify dashboard
+4. Set the build command to `npm run build` and publish directory to `build/`
+5. Deploy!
+
+> The `CI=false` flag in the build script prevents Netlify from treating warnings as errors.
+
+---
+
+## 🔗 Related
+
+- **Backend Repo:** [github.com/udayrajdara/netflix-api](https://github.com/udayrajdara/netflix-api)
+- **Live API:** [netflix-api-9k8a.onrender.com](https://netflix-api-9k8a.onrender.com)
+- **TMDB API Docs:** [developers.themoviedb.org](https://developers.themoviedb.org/3)
+- **Firebase Docs:** [firebase.google.com/docs](https://firebase.google.com/docs)
+
+---
+
+## 📄 License
+
+This project is for educational purposes only. Netflix branding belongs to Netflix, Inc.
