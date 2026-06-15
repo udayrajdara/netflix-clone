@@ -2,7 +2,7 @@ import React, { useEffect } from 'react';
 import './Signin.css'
 import { useState } from 'react';
 import { signInWithEmailAndPassword } from 'firebase/auth';
-import { firebaseAuth } from '../Utiles/firebase.confg';
+import { firebaseAuth } from '../Utils/firebase.confg';
 import { Link, useNavigate } from 'react-router-dom';
 
 

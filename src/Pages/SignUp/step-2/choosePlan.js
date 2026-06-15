@@ -5,7 +5,7 @@ import { IoMdCheckmark } from "react-icons/io";
 import './choosePlan.css'
 
 import { onAuthStateChanged, signOut} from 'firebase/auth'
-import { firebaseAuth } from '../../Utiles/firebase.confg';
+import { firebaseAuth } from '../../Utilsfirebase.confg';
 
 export default function ChoosePlan(){
 

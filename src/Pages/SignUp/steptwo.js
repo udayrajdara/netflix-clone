@@ -3,7 +3,7 @@ import './StepTwo.css'
 import './StepOne.css'
 import { Link, NavLink, Navigate, useNavigate } from 'react-router-dom';
 import { signInWithEmailAndPassword, } from 'firebase/auth';
-import { firebaseAuth } from '../Utiles/firebase.confg';
+import { firebaseAuth } from '../Utils/firebase.confg';
 
 
 const StepTwo = () => {

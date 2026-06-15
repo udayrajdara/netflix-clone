@@ -2,7 +2,7 @@ import React, { useEffect, useState} from 'react';
 import './StepOne.css'
 import { Link, NavLink, useNavigate } from 'react-router-dom';
 import { createUserWithEmailAndPassword} from 'firebase/auth'
-import { firebaseAuth } from '../Utiles/firebase.confg'
+import { firebaseAuth } from '../Utils/firebase.confg'
 import axios from 'axios';
 
 
