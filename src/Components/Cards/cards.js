@@ -4,7 +4,7 @@ import './Cards.css'
 import { useNavigate } from 'react-router-dom';
 import { onAuthStateChanged } from 'firebase/auth';
 import axios from 'axios';
-import { firebaseAuth } from '../../Pages/Utiles/firebase.confg';
+import { firebaseAuth } from '../../Pages/Utils/firebase.confg';
 import { useDispatch } from 'react-redux';
 import { removeFromLikedMovies } from '../../Pages/Store';
 

@@ -2,7 +2,7 @@ import { onAuthStateChanged, signOut } from 'firebase/auth';
 import React, { useEffect, useRef } from 'react';
 import { useState } from 'react';
 import {Link, NavLink, useNavigate} from 'react-router-dom'
-import { firebaseAuth } from '../../Pages/Utiles/firebase.confg';
+import { firebaseAuth } from '../../Pages/Utils/firebase.confg';
 import './Navbar.css'
 import { useDispatch, useSelector } from 'react-redux';
 import { fetchMovies, getGenres } from '../../Pages/Store';
