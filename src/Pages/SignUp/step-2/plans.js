@@ -2,7 +2,7 @@ import React, { useEffect } from 'react';
 import './plans.css'
 import { Link, useNavigate } from 'react-router-dom';
 import { onAuthStateChanged, signOut} from 'firebase/auth'
-import { firebaseAuth } from '../../Utiles/firebase.confg';
+import { firebaseAuth } from '../../Utils/firebase.confg';
 
 
 export default function Plans(){
