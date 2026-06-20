@@ -7,7 +7,7 @@ import { NavLink, Link } from 'react-router-dom';
 export default function SignUp(){
 
     useEffect(()=>{
-        document.title = 'Netflix'
+        document.title = 'Sign Up - Netflix UI Clone | React Project';
     }, [])
     
     return (

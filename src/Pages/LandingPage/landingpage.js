@@ -157,7 +157,7 @@ const[data, setData] = useState({
 // }
 
 useEffect(()=>{
-    document.title = 'Netflix India - Watch TV shows Online, Watch Movies Online';
+    document.title = 'Netflix UI Clone | React Project - Watch TV shows Online, Watch Movies Online';
 }, [])
 
 
@@ -259,6 +259,20 @@ useEffect(()=>{
                             </div>
                             )
                         })}
+                    </div>
+
+                    <div   style={{
+                        background: "#141414",
+                        color: "#fff",
+                        padding: "12px",
+                        textAlign: "center",
+                        fontSize: "14px",
+                        borderBottom: "1px solid #333",
+                        marginTop: "20px",
+                    }}>
+                    <strong>Netflix UI Clone</strong> | Educational Project built with React.js
+                    and TMDB API. This website is not affiliated with, endorsed by, or connected
+                    to Netflix.
                     </div>
                 </section>
 

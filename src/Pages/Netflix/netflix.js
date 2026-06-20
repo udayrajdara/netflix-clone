@@ -34,7 +34,7 @@ export default function Netflix() {
     }
 
     useEffect(()=>{
-        document.title = 'Home - Netflix';
+        document.title = 'Home - Netflix UI Clone | React Project';
 
         document.querySelector('meta[name="description"]')
         .setAttribute('content', 'What is Netflix? Netflix is a streaming service that offers a wide variety of award-winning TV shows, movies, anime, documentaries, and more on thousands of ...');

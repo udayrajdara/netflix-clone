@@ -31,7 +31,7 @@ export default function Movies() {
 
 
     useEffect(()=>{
-        document.title = 'Movies - Netflix';
+        document.title = 'Movies - Netflix UI Clone | React Project';
 
         document.querySelector('meta[name="description"]')
         .setAttribute('content', 'Action Comedy Movies · The Adam Project · The Man from Toronto · Murder Mystery 2 · The Out-Laws · Thunder Force · Shazam! Fury of the Gods · Birds of Prey (And ...');

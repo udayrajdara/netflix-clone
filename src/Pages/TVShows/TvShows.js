@@ -32,7 +32,7 @@ export default function TVShows() {
 
 
     useEffect(()=>{
-        document.title = 'TV Shows - Netflix';
+        document.title = 'TV Shows - Netflix UI Clone | React Project';
 
         document.querySelector('meta[name="description"]')
         .setAttribute('content', 'TV Sci-Fi & Horror · Stranger Things · Supernatural · Manifest · All of Us Are Dead · Chilling Adventures of Sabrina · Dracula · Black Lightning · Supergirl ...');

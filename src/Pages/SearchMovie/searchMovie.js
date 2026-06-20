@@ -9,7 +9,7 @@ export default function SearchMovie({results}) {
   // const[isHovered, setIsHovered] = useState(false);
 
     useEffect(()=>{
-        document.title = 'Netflix'
+        document.title = 'Netflix UI Clone | React Project'
     },[])
 
 

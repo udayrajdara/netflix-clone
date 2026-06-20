@@ -52,7 +52,7 @@ export default function StepOne(){
     
 
     useEffect(()=>{
-        document.title = 'Netflix'
+        document.title = 'Step One - Netflix UI Clone | React Project'
     }, [])
 
 

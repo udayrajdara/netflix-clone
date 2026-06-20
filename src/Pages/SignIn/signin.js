@@ -80,7 +80,7 @@ export default function SignIn() {
         }
 
         useEffect(()=>{
-            document.title = 'Netflix';
+            document.title = 'Sign In - Netflix UI Clone | React Project';
 
             document.querySelector('meta[name="description"]')
         .setAttribute('content', 'Watch Netflix movies & TV shows online or stream right to your ...')
