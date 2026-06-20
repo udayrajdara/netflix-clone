@@ -1,4 +1,4 @@
-# 🎬 Netflix Clone
+# 🎬 Netflix UI Clone | React Project
 
 A Netflix-inspired frontend built with React, Redux Toolkit, and Firebase — featuring movie browsing, liked movies, and user authentication. Deployed on Netlify.
 
