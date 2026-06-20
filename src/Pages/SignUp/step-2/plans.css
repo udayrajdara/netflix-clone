@@ -1,3 +1,31 @@
 .singup-signin{
     cursor: pointer;
 }
+.container-fluid {
+    height: 100%;
+}
+.plans-container{
+    width: 100%;
+    background-color: white;
+}
+.home-direct{
+    height: 100vh;
+    font-size: 1.2rem;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.go-home-text{
+    font-size: 1.8rem;
+    font-weight: 600;
+    with: 100%;
+    text-align: center;
+    background-color: #E50914;
+    color: white;
+    padding: 1rem;
+    border-radius: 5px;
+    border: none;
+    margin-top: 20px;
+}
